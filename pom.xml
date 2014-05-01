@@ -30,7 +30,7 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:dmacdonald2013/stubble-parent.git</connection>
+        <connection>scm:git:git@github.com:dmacdonald2013/stubble.git</connection>
         <developerConnection>
             scm:git:git@github.com:dmacdonald2013/stubble.git
         </developerConnection>

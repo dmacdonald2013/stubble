@@ -2,6 +2,7 @@ package com.cream.stubble.domain;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.io.Serializable;
 
 /**
  * A simple string->string value for headers
@@ -9,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author David MacDonald
  */
 @XmlRootElement(name="header")
-public class HttpHeader {
+public class HttpHeader implements Serializable {
     private String name;
     private String value;
 
